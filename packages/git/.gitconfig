@@ -6,3 +6,4 @@
 	s = status
 	c = commit
 	cm = commit -m
+	pom = push origin main
