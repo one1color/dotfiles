@@ -1,3 +1,8 @@
 [user]
 	email = koki.111.sui@gmail.com
 	name = one1color
+[alias]
+	aa = add -A
+	s = status
+	c = commit
+	cm = commit -m
