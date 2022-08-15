@@ -10,12 +10,10 @@ brew "rustup-init"
 brew "starship"
 brew "stow"
 cask "adobe-creative-cloud"
-cask "alfred"
 cask "android-file-transfer"
 cask "blender"
 cask "brave-browser"
 cask "cleanmymac"
-cask "clipy"
 cask "deepl"
 cask "dropbox"
 cask "figma"
@@ -25,13 +23,19 @@ cask "gltfquicklook"
 cask "google-chrome"
 cask "insomnia"
 cask "microsoft-auto-update"
-cask "microsoft-edge"
 cask "microsoft-office"
 cask "min"
 cask "notion"
-cask "shiftit"
+cask "raycast"
 cask "slack"
 cask "spotify"
 cask "todoist"
 cask "visual-studio-code"
 cask "zoom"
+mas "Be Focused Pro", id: 961632517
+mas "DigiDoc4 Client", id: 1370791134
+mas "Final Cut Pro", id: 424389933
+mas "Keynote", id: 409183694
+mas "Playgrounds", id: 1496833156
+mas "Surfshark", id: 1437809329
+mas "Xcode", id: 497799835
