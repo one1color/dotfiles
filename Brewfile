@@ -32,6 +32,7 @@ cask "spotify"
 cask "todoist"
 cask "visual-studio-code"
 cask "zoom"
+mas "AusweisApp2", id: 948660805
 mas "Be Focused Pro", id: 961632517
 mas "DigiDoc4 Client", id: 1370791134
 mas "Final Cut Pro", id: 424389933
