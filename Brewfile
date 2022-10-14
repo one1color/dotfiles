@@ -27,16 +27,9 @@ cask "microsoft-office"
 cask "min"
 cask "notion"
 cask "raycast"
+cask "signal"
 cask "slack"
 cask "spotify"
 cask "todoist"
 cask "visual-studio-code"
 cask "zoom"
-mas "AusweisApp2", id: 948660805
-mas "Be Focused Pro", id: 961632517
-mas "DigiDoc4 Client", id: 1370791134
-mas "Final Cut Pro", id: 424389933
-mas "Keynote", id: 409183694
-mas "Playgrounds", id: 1496833156
-mas "Surfshark", id: 1437809329
-mas "Xcode", id: 497799835
