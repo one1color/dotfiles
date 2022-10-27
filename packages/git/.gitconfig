@@ -8,3 +8,8 @@
 	cm = commit -m
 	pom = push origin main
 	p = push
+	
+[core]
+	compression = 0
+[http]
+	postBuffer = 1048576000
