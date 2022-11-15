@@ -70,6 +70,7 @@ cask "xcodes"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Bitwarden", id: 1352778147
+mas "Final Cut Pro", id: 424389933
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
 mas "Pages", id: 409201541
