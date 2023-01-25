@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "lokalise/cli-2"
 # Powerful, clean, object-oriented scripting language
 brew "ruby"
 # Dependency manager for Cocoa projects
@@ -11,12 +12,20 @@ brew "mas"
 brew "mint"
 # Platform built on V8 to build network applications
 brew "node"
+# Python version management
+brew "pyenv"
 # Rust toolchain installer
 brew "rustup-init"
 # Cross-shell prompt for astronauts
 brew "starship"
 # Organize software neatly under a single directory tree (e.g. /usr/local)
 brew "stow"
+# Formatting tool for reformatting Swift code
+brew "swiftformat"
+# Tool to enforce Swift style and conventions
+brew "swiftlint"
+# Lokalise CLI v2
+brew "lokalise/cli-2/lokalise2"
 # Collection of apps and services for photography, design, video, web, and UX
 cask "adobe-creative-cloud"
 # Transfer files from and to an Android smartphone
@@ -53,6 +62,8 @@ cask "microsoft-teams"
 cask "min"
 # App to write, plan, collaborate, and get organized
 cask "notion"
+# Remote pair programming
+cask "pop"
 # Control your tools with a few keystrokes
 cask "raycast"
 # Instant messaging application focusing on security
@@ -65,11 +76,15 @@ cask "spotify"
 cask "todoist"
 # Open-source code editor
 cask "visual-studio-code"
+# Rust-based terminal
+cask "warp"
 # Install and switch between multiple versions of Xcode
 cask "xcodes"
 # Video communication and virtual meeting platform
 cask "zoom"
 mas "Bitwarden", id: 1352778147
+mas "DaisyDisk", id: 411643860
+mas "Disk Speed Test", id: 425264550
 mas "Final Cut Pro", id: 424389933
 mas "Keynote", id: 409183694
 mas "Numbers", id: 409203825
