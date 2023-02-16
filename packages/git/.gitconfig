@@ -8,3 +8,5 @@
 	cm = commit -m
 	pom = push origin main
 	p = push
+[core]
+	excludesfile = /Users/kokiisshiki/dotfiles/.gitignore
