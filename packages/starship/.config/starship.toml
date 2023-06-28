@@ -12,3 +12,6 @@ disabled = true
 
 [git_status]
 style = "bold white"
+
+[line_break]
+disabled = true
