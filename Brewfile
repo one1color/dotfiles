@@ -5,6 +5,7 @@ brew "python@3.11"
 brew "ruby"
 brew "cocoapods"
 brew "gcc"
+brew "gh"
 brew "git-lfs"
 brew "ipython", link: false
 brew "node"
@@ -42,6 +43,7 @@ cask "microsoft-edge"
 cask "microsoft-office"
 cask "microsoft-teams"
 cask "notion"
+cask "obsidian"
 cask "pop"
 cask "raycast"
 cask "sf-symbols"
@@ -54,7 +56,6 @@ cask "warp"
 cask "xcodes"
 cask "zoom"
 mas "1Password 7", id: 1333542190
-mas "Bear", id: 1091189122
 mas "Bitwarden", id: 1352778147
 mas "DaisyDisk", id: 411643860
 mas "DaVinci Resolve", id: 571213070
@@ -67,4 +68,3 @@ mas "Surfshark", id: 1437809329
 mas "The Unarchiver", id: 425424353
 mas "Web eID", id: 1576665083
 vscode "GitHub.copilot"
-vscode "znck.grammarly"
