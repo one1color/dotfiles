@@ -1,5 +1,6 @@
 tap "dral3x/dral3x"
 tap "homebrew/bundle"
+tap "homebrew/services"
 tap "lokalise/cli-2"
 brew "node"
 brew "bitwarden-cli"
@@ -34,6 +35,7 @@ cask "blender"
 cask "brave-browser"
 cask "cleanmymac"
 cask "deepl"
+cask "diffmerge"
 cask "figma"
 cask "firefox"
 cask "flutter"
@@ -45,8 +47,7 @@ cask "ledger-live"
 cask "microsoft-auto-update"
 cask "microsoft-edge"
 cask "microsoft-office"
-cask "microsoft-teams"
-cask "notion"
+cask "notion-calendar"
 cask "obsidian"
 cask "pop"
 cask "raycast"
@@ -59,5 +60,16 @@ cask "visual-studio-code"
 cask "warp"
 cask "xcodes"
 cask "zoom"
+mas "DaisyDisk", id: 411643860
+mas "DaVinci Resolve", id: 571213070
+mas "Developer", id: 640199958
+mas "DigiDoc4 Client", id: 1370791134
+mas "Final Cut Pro", id: 424389933
+mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
+mas "SonicWall Mobile Connect", id: 822514576
+mas "Surfshark", id: 1437809329
+mas "The Unarchiver", id: 425424353
+mas "Web eID", id: 1576665083
 vscode "GitHub.copilot"
 vscode "GitHub.copilot-chat"
