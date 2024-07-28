@@ -12,16 +12,6 @@ This dotfiles is mainly made by these tools.
 curl -o - https://raw.githubusercontent.com/one1color/dotfiles/main/install | sh
 ```
 
-## manual update
-### Brew update
-```sh
-brew bundle dump --force
-```
-or update with app description
-```sh
-brew bundle dump --force --describe
-```
-
 ## Error handle
 
 if stow doesn't link -> remove old file under /usr/ or change name using.
