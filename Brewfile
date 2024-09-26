@@ -6,6 +6,10 @@ cask "brave-browser"
 cask "chatgpt"
 cask "google-chrome"
 cask "deepl"
+cask "surfshark"
+cask "notion-calendar"
+cask "telegram"
+cask "figma"
 
 # iOS Dev
 cask "xcodes"

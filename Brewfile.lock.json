@@ -2,7 +2,7 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "f559d3eb556dceaf4611bc0b1cc2f233ce3b24ea"
+        "revision": "a882a221ecb33f855f8a0b78adaa525926901a19"
       },
       "homebrew/cask": {
         "revision": "6e132cba17a2f8ef83504a3bcd7605eee01ba8ac"
@@ -11,7 +11,7 @@
         "revision": "6a46eb0692364c9f7bd3df936b17a1d42c8f5550"
       },
       "homebrew/services": {
-        "revision": "2f4a3fabf6f272133c464d46c6299036e9f32dad"
+        "revision": "8589da010d2aeb29f8164d5dde4a28f74a233ce3"
       }
     },
     "brew": {
@@ -192,6 +192,11 @@
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/starship/blobs/sha256:26bf48ee3cd1377bf1975b130214914f5df26fd3133a067465008e3a773b7704",
+              "sha256": "26bf48ee3cd1377bf1975b130214914f5df26fd3133a067465008e3a773b7704"
+            },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/starship/blobs/sha256:0c4a9a5065b898767b818d6efd9967a8721584b856d2ae50291d93378dd6308d",
@@ -231,45 +236,50 @@
         }
       },
       "stow": {
-        "version": "2.4.0",
+        "version": "2.4.1",
         "bottle": {
-          "rebuild": 1,
+          "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:d4c48d441c3aec3763807b9937c6f8e0aa118fd3e8726f4419ffe3928a4f4ae0",
+              "sha256": "d4c48d441c3aec3763807b9937c6f8e0aa118fd3e8726f4419ffe3928a4f4ae0"
+            },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:96b39991344069d3dadb1c7596834de19363bb36e17e32295dd4795b0769f5aa",
-              "sha256": "96b39991344069d3dadb1c7596834de19363bb36e17e32295dd4795b0769f5aa"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:d4c48d441c3aec3763807b9937c6f8e0aa118fd3e8726f4419ffe3928a4f4ae0",
+              "sha256": "d4c48d441c3aec3763807b9937c6f8e0aa118fd3e8726f4419ffe3928a4f4ae0"
             },
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:8c4ee57b369517cb9acd9b55f4ec607d85989439c84c9213584abe7ea11ab5fd",
-              "sha256": "8c4ee57b369517cb9acd9b55f4ec607d85989439c84c9213584abe7ea11ab5fd"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:22e553b127f24001900605515df147dff27f5eb0b99805d63de1bcffb1c5a0d3",
+              "sha256": "22e553b127f24001900605515df147dff27f5eb0b99805d63de1bcffb1c5a0d3"
             },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:8c4ee57b369517cb9acd9b55f4ec607d85989439c84c9213584abe7ea11ab5fd",
-              "sha256": "8c4ee57b369517cb9acd9b55f4ec607d85989439c84c9213584abe7ea11ab5fd"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:22e553b127f24001900605515df147dff27f5eb0b99805d63de1bcffb1c5a0d3",
+              "sha256": "22e553b127f24001900605515df147dff27f5eb0b99805d63de1bcffb1c5a0d3"
             },
             "sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:9941e9c78e2c61bdb9debae9c950663f1a5f0c1b01ae4baab9669654faf31c0e",
-              "sha256": "9941e9c78e2c61bdb9debae9c950663f1a5f0c1b01ae4baab9669654faf31c0e"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:4829b15c46ae06aebd28e6ca0148f7b743de698041f4f8dd1c88b8e1e2fb7f1b",
+              "sha256": "4829b15c46ae06aebd28e6ca0148f7b743de698041f4f8dd1c88b8e1e2fb7f1b"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:90deed5604fea78b3d06b106d2a9833b731de947af36c352f49b0c3305dbfb4c",
-              "sha256": "90deed5604fea78b3d06b106d2a9833b731de947af36c352f49b0c3305dbfb4c"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:50ca7991910a8b752ee6d5504f8cab1e2012de4759d517c68e1389f42c952242",
+              "sha256": "50ca7991910a8b752ee6d5504f8cab1e2012de4759d517c68e1389f42c952242"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:90deed5604fea78b3d06b106d2a9833b731de947af36c352f49b0c3305dbfb4c",
-              "sha256": "90deed5604fea78b3d06b106d2a9833b731de947af36c352f49b0c3305dbfb4c"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:50ca7991910a8b752ee6d5504f8cab1e2012de4759d517c68e1389f42c952242",
+              "sha256": "50ca7991910a8b752ee6d5504f8cab1e2012de4759d517c68e1389f42c952242"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:fc3b7edb838e2a5bac50fc5cb04f9fe33a82ee2c972b6f8cecaa7b17c38a4fda",
-              "sha256": "fc3b7edb838e2a5bac50fc5cb04f9fe33a82ee2c972b6f8cecaa7b17c38a4fda"
+              "url": "https://ghcr.io/v2/homebrew/core/stow/blobs/sha256:99e225c98e4bbc9dfaa3a6dfbeea16b9e2f91bacc18801212902fbb81962f73a",
+              "sha256": "99e225c98e4bbc9dfaa3a6dfbeea16b9e2f91bacc18801212902fbb81962f73a"
             }
           }
         }
@@ -363,45 +373,50 @@
         }
       },
       "swiftformat": {
-        "version": "0.54.2",
+        "version": "0.54.5",
         "bottle": {
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:3fc57cb9abcbfd64106a3b16f51c8851c9877327553ec5fd9b21683d42b3c18d",
+              "sha256": "3fc57cb9abcbfd64106a3b16f51c8851c9877327553ec5fd9b21683d42b3c18d"
+            },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:81df298cd70628b2149823fa370aa3a6799fa3d794e1541f76f3f4a2d7bedac1",
-              "sha256": "81df298cd70628b2149823fa370aa3a6799fa3d794e1541f76f3f4a2d7bedac1"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:4d1f7565498827bbc53230f01c2fca4a7d082f4ae16d32ae568ba633c090c6ee",
+              "sha256": "4d1f7565498827bbc53230f01c2fca4a7d082f4ae16d32ae568ba633c090c6ee"
             },
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:c69312fea87da1123deb27e6943e90affe661475571c6ca5967321688b46df8b",
-              "sha256": "c69312fea87da1123deb27e6943e90affe661475571c6ca5967321688b46df8b"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:416b54dc7938754980f9b2d732254ce7a36c401c2df3b68eba47f54db9bb956c",
+              "sha256": "416b54dc7938754980f9b2d732254ce7a36c401c2df3b68eba47f54db9bb956c"
             },
             "arm64_monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:da2a5c24a8132589cee415f4a0754ccc8b39e67e74e06469a3cb6b45d880877a",
-              "sha256": "da2a5c24a8132589cee415f4a0754ccc8b39e67e74e06469a3cb6b45d880877a"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:3b14b0bacb0938c650e2d0d30d1f546ea7bac4feac510be16f09a89abd9f95d4",
+              "sha256": "3b14b0bacb0938c650e2d0d30d1f546ea7bac4feac510be16f09a89abd9f95d4"
             },
             "sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:5d5e97425579868571f6322c7472793ef0e652b0ccb64248a466f5f6a85d8b0c",
-              "sha256": "5d5e97425579868571f6322c7472793ef0e652b0ccb64248a466f5f6a85d8b0c"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:445a0e38bda1f1dbda7c34dbb75a1b4432c5f0de7f9fa8bd4e03a9220b9bda19",
+              "sha256": "445a0e38bda1f1dbda7c34dbb75a1b4432c5f0de7f9fa8bd4e03a9220b9bda19"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:402e0e5e117296bee234ef2d657a49ef3397dd898db244a43abe6b02b83b6c48",
-              "sha256": "402e0e5e117296bee234ef2d657a49ef3397dd898db244a43abe6b02b83b6c48"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:508b2e8000078773c7884e17b8d1ca711f4313ba14ff0000f7a28af68b02e71a",
+              "sha256": "508b2e8000078773c7884e17b8d1ca711f4313ba14ff0000f7a28af68b02e71a"
             },
             "monterey": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:67abaff7e1f041b060e35e8ad1573737c93866c18a9bb4e84c9fd1d85e2064f2",
-              "sha256": "67abaff7e1f041b060e35e8ad1573737c93866c18a9bb4e84c9fd1d85e2064f2"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:8c367a76ca05ba07ffc38a6bb2f5ee0231d363655ed982284afcb4d685fa524e",
+              "sha256": "8c367a76ca05ba07ffc38a6bb2f5ee0231d363655ed982284afcb4d685fa524e"
             },
             "x86_64_linux": {
               "cellar": "/home/linuxbrew/.linuxbrew/Cellar",
-              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:5c6a46f3995ad0b606c0c8a823b9236998ac512ba8895e8b1c3b35730fc2067d",
-              "sha256": "5c6a46f3995ad0b606c0c8a823b9236998ac512ba8895e8b1c3b35730fc2067d"
+              "url": "https://ghcr.io/v2/homebrew/core/swiftformat/blobs/sha256:8e8abc969e1b10e7411a92717703c8cd944c7a3f3fd04e2d232918971ae14662",
+              "sha256": "8e8abc969e1b10e7411a92717703c8cd944c7a3f3fd04e2d232918971ae14662"
             }
           }
         }
@@ -412,6 +427,11 @@
           "rebuild": 0,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/swiftgen/blobs/sha256:49cf0b56d500cf87acc05ca32f5007b750469c865253bd6b070dffcd309d8065",
+              "sha256": "49cf0b56d500cf87acc05ca32f5007b750469c865253bd6b070dffcd309d8065"
+            },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
               "url": "https://ghcr.io/v2/homebrew/core/swiftgen/blobs/sha256:dc57fa733294a7d4d27714cd3eb954f2f8de1231cc0f991e6c043e2528a25311",
@@ -448,43 +468,38 @@
       "git-lfs": {
         "version": "3.5.1",
         "bottle": {
-          "rebuild": 0,
+          "rebuild": 1,
           "root_url": "https://ghcr.io/v2/homebrew/core",
           "files": {
+            "arm64_sequoia": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:6ae42cee04c1e4c25cfe7c2cfbde067060b1b96ac1ec80da9d63c5a4b4e0c909",
+              "sha256": "6ae42cee04c1e4c25cfe7c2cfbde067060b1b96ac1ec80da9d63c5a4b4e0c909"
+            },
             "arm64_sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:6079593e9b2008a74a71a109518d49f522939c98770fe233fcc4147d9e10439d",
-              "sha256": "6079593e9b2008a74a71a109518d49f522939c98770fe233fcc4147d9e10439d"
+              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:6ae42cee04c1e4c25cfe7c2cfbde067060b1b96ac1ec80da9d63c5a4b4e0c909",
+              "sha256": "6ae42cee04c1e4c25cfe7c2cfbde067060b1b96ac1ec80da9d63c5a4b4e0c909"
             },
             "arm64_ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:241e895f27aa45b46f459bf78ac8b031748c329e3d4b5c24b5343d61dbbb1472",
-              "sha256": "241e895f27aa45b46f459bf78ac8b031748c329e3d4b5c24b5343d61dbbb1472"
-            },
-            "arm64_monterey": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:5ac1391a61a43b8b4c28efc591a96683443e1c66f17e4fdd503b27c60be88400",
-              "sha256": "5ac1391a61a43b8b4c28efc591a96683443e1c66f17e4fdd503b27c60be88400"
+              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:6ae42cee04c1e4c25cfe7c2cfbde067060b1b96ac1ec80da9d63c5a4b4e0c909",
+              "sha256": "6ae42cee04c1e4c25cfe7c2cfbde067060b1b96ac1ec80da9d63c5a4b4e0c909"
             },
             "sonoma": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:62c2e70ba22ed9c265c8a994c2d54021588d6b581d599be627a802e21f5cb2a7",
-              "sha256": "62c2e70ba22ed9c265c8a994c2d54021588d6b581d599be627a802e21f5cb2a7"
+              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:63e2c1dbdc3df326ddea622cd7d134935a9545ab14f5bc871b23739b82792c67",
+              "sha256": "63e2c1dbdc3df326ddea622cd7d134935a9545ab14f5bc871b23739b82792c67"
             },
             "ventura": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:bbe0d1cdec9bc6838bcb3cbc18782e7a131d7e4d2623acd30f6b809e800283c1",
-              "sha256": "bbe0d1cdec9bc6838bcb3cbc18782e7a131d7e4d2623acd30f6b809e800283c1"
-            },
-            "monterey": {
-              "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:702a41d4bb7fb85b3232ceb3a6d590b5777e09d147a531f9c65ee4838101f7d7",
-              "sha256": "702a41d4bb7fb85b3232ceb3a6d590b5777e09d147a531f9c65ee4838101f7d7"
+              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:63e2c1dbdc3df326ddea622cd7d134935a9545ab14f5bc871b23739b82792c67",
+              "sha256": "63e2c1dbdc3df326ddea622cd7d134935a9545ab14f5bc871b23739b82792c67"
             },
             "x86_64_linux": {
               "cellar": ":any_skip_relocation",
-              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:80391a7442b2c4a592f8c66ab24e07537559b3a4f420a85c60661c1182ddf197",
-              "sha256": "80391a7442b2c4a592f8c66ab24e07537559b3a4f420a85c60661c1182ddf197"
+              "url": "https://ghcr.io/v2/homebrew/core/git-lfs/blobs/sha256:1f8525605ee1028c3a5e2dd762270b3a89da7e3b1355ee701bc791a5272ad843",
+              "sha256": "1f8525605ee1028c3a5e2dd762270b3a89da7e3b1355ee701bc791a5272ad843"
             }
           }
         }
@@ -516,7 +531,7 @@
         }
       },
       "brave-browser": {
-        "version": "1.68.128.0",
+        "version": "1.70.119.0",
         "options": {
           "full_name": "brave-browser"
         }
@@ -534,7 +549,7 @@
         }
       },
       "deepl": {
-        "version": "24.7.11105906",
+        "version": "24.9.31277381",
         "options": {
           "full_name": "deepl"
         }
@@ -546,7 +561,7 @@
         }
       },
       "figma": {
-        "version": "124.2.9",
+        "version": "124.3.3",
         "options": {
           "full_name": "figma"
         }
@@ -570,7 +585,7 @@
         }
       },
       "google-chrome": {
-        "version": "127.0.6533.73",
+        "version": "129.0.6668.71",
         "options": {
           "full_name": "google-chrome"
         }
@@ -606,13 +621,13 @@
         }
       },
       "spotify": {
-        "version": "1.2.42.290,242057a2,1353",
+        "version": "1.2.47.364",
         "options": {
           "full_name": "spotify"
         }
       },
       "visual-studio-code": {
-        "version": "1.91.1",
+        "version": "1.93.1",
         "options": {
           "full_name": "visual-studio-code"
         }
@@ -642,25 +657,25 @@
         }
       },
       "raycast": {
-        "version": "1.79.1",
+        "version": "1.83.1",
         "options": {
           "full_name": "raycast"
         }
       },
       "signal": {
-        "version": "7.17.0",
+        "version": "7.26.0",
         "options": {
           "full_name": "signal"
         }
       },
       "slack": {
-        "version": "4.39.90",
+        "version": "4.40.128",
         "options": {
           "full_name": "slack"
         }
       },
       "todoist": {
-        "version": "9.7.2",
+        "version": "9.7.7",
         "options": {
           "full_name": "todoist"
         }
@@ -672,7 +687,7 @@
         }
       },
       "chatgpt": {
-        "version": "1.2024.199,1721692610",
+        "version": "1.2024.261,1726884870",
         "options": {
           "full_name": "chatgpt"
         }
@@ -684,7 +699,7 @@
         }
       },
       "warp": {
-        "version": "0.2024.07.23.08.02.stable_01",
+        "version": "0.2024.09.24.08.02.stable_01",
         "options": {
           "full_name": "warp"
         }
@@ -696,9 +711,27 @@
         }
       },
       "ledger-live": {
-        "version": "2.84.1",
+        "version": "2.86.0",
         "options": {
           "full_name": "ledger-live"
+        }
+      },
+      "surfshark": {
+        "version": "4.15.2,2293",
+        "options": {
+          "full_name": "surfshark"
+        }
+      },
+      "notion-calendar": {
+        "version": "1.122.0,240425z72rc39q3",
+        "options": {
+          "full_name": "notion-calendar"
+        }
+      },
+      "telegram": {
+        "version": "11.1,267758",
+        "options": {
+          "full_name": "telegram"
         }
       }
     },
@@ -752,7 +785,7 @@
         "macOS": "13.0"
       },
       "sonoma": {
-        "HOMEBREW_VERSION": "4.3.10",
+        "HOMEBREW_VERSION": "4.3.21",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",
