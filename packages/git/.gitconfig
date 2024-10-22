@@ -9,7 +9,7 @@
 	pom = push origin main
 	p = push
 [core]
-	excludesfile = /Users/kokiisshiki/dotfiles/.gitignore
+	excludesfile = /Users/kokiisshiki/.gitignore
 	editor = /usr/bin/vim
 [filter "lfs"]
 	clean = git-lfs clean -- %f
