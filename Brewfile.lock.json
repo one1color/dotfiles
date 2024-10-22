@@ -11,7 +11,7 @@
         "revision": "6a46eb0692364c9f7bd3df936b17a1d42c8f5550"
       },
       "homebrew/services": {
-        "revision": "9b2f2b8966002e1f05c0704f71f9749ca9b1d731"
+        "revision": "c107c71f8ef06bbfdbb58a4b70fef3aaa252c763"
       }
     },
     "brew": {
@@ -679,7 +679,7 @@
         }
       },
       "warp": {
-        "version": "0.2024.10.15.08.02.stable_03",
+        "version": "0.2024.10.15.08.02.stable_04",
         "options": {
           "full_name": "warp"
         }
@@ -773,11 +773,11 @@
         "macOS": "14.4.1"
       },
       "sequoia": {
-        "HOMEBREW_VERSION": "4.3.24",
+        "HOMEBREW_VERSION": "4.4.2",
         "HOMEBREW_PREFIX": "/opt/homebrew",
         "Homebrew/homebrew-core": "api",
         "CLT": "15.3.0.0.1.1708646388",
-        "Xcode": "15.4",
+        "Xcode": "16.0",
         "macOS": "15.0.1"
       }
     }
