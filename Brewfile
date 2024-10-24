@@ -37,3 +37,7 @@ cask "ledger-live"
 # Others
 tap "homebrew/bundle"
 tap "homebrew/services"
+
+# For personal web
+brew "node"
+brew "pnpm"
