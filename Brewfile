@@ -25,6 +25,9 @@ cask "obsidian"
 brew "git-lfs"
 brew "starship"
 brew "stow"
+brew "mas"
+
+mas "CleanMyMac", id: 1339170533
  
 # Communication
 cask "signal"
