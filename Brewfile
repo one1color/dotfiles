@@ -10,6 +10,8 @@ cask "surfshark"
 cask "notion-calendar"
 cask "telegram"
 cask "figma"
+cask "firefox"
+cask "adobe-creative-cloud"
 
 # iOS Dev
 cask "xcodes"
@@ -27,7 +29,14 @@ brew "starship"
 brew "stow"
 brew "mas"
 
-mas "CleanMyMac", id: 1339170533
+# Boolder backend
+brew "postgresql"
+brew "postgis"
+brew "gnupg"
+brew "ruby"
+brew "rbenv"
+brew "libpq"
+brew "vips"
  
 # Communication
 cask "signal"
