@@ -18,6 +18,7 @@ cask "xcodes"
 cask "sf-symbols"
 brew "swiftformat"
 brew "swiftgen"
+brew "periphery"
 
 # Dev General
 cask "visual-studio-code"
