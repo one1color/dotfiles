@@ -12,6 +12,7 @@ cask "telegram"
 cask "figma"
 cask "firefox"
 cask "adobe-creative-cloud"
+cask "capcut"
 
 # iOS Dev
 cask "xcodes"
