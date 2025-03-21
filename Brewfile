@@ -13,6 +13,7 @@ cask "figma"
 cask "firefox"
 cask "adobe-creative-cloud"
 cask "capcut"
+cask "zoom"
 
 # iOS Dev
 cask "xcodes"
@@ -25,6 +26,7 @@ brew "periphery"
 cask "visual-studio-code"
 cask "warp"
 cask "obsidian"
+cask "flutter"
 
 brew "git-lfs"
 brew "starship"
